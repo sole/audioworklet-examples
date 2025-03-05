@@ -1,7 +1,5 @@
 class SineGenerator extends AudioWorkletProcessor {
     _freq = 220.0;
-    _sampleRate = 44100;
-    _inverseSampleRate = 1.0 / 44100;
 
     constructor(...args) {
         super(...args);
