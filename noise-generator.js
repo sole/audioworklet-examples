@@ -14,6 +14,4 @@ class NoiseGenerator extends AudioWorkletProcessor {
     }
 }
 
-console.log(importScripts)
-
 registerProcessor("noise-generator", NoiseGenerator);
